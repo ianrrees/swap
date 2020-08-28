@@ -4,7 +4,7 @@
 // Ian Rees 2020
 
 use clap;
-use libc::{self, c_char, c_int, c_uint, AT_FDCWD, RENAME_EXCHANGE};
+use libc::{c_char, c_int, c_uint, AT_FDCWD, RENAME_EXCHANGE};
 use std::io;
 
 // 28 Aug 2020: renameat2() is not in the Rust libc crate, but
